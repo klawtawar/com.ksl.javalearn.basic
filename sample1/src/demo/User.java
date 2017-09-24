@@ -1,7 +1,6 @@
 package demo;
 
 class User {
-	private static Object userRoll;
 	int id;
 	String name;
 	int salary;
