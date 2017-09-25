@@ -12,14 +12,11 @@ class User {
 		name = userName;		
 	}
 	
-	User(int userId, String userName, int userRoll ){
-		this(userId, userName);
-		roll = userRoll;	
-	}
     
 	
 	User(int userId, String userName, int userRoll, int userSalary){
-	    this(userId, userName, userRoll);
+		this(userId, userName);
+		roll = userRoll;
 	    salary = userSalary;
 	
 	}
