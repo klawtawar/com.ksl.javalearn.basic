@@ -20,7 +20,7 @@ class User {
 	    salary = userSalary;
 	
 	}
-	// Run main methd with all inputs
+	// Run main methd with all inputs 
 	 public static void main(String[] args) {
 		User instructor = new User(1002, "Dheeru", 1234, 50000);
 		System.out.println("Name: " + instructor.name);
